@@ -14,7 +14,7 @@
 #define __CAM_SYNC_UTIL_H__
 
 
-#include <cam_sync_api.h>
+#include <../drivers/media/platform/msm/camera/cam_sync/cam_sync_api.h>
 #include "cam_sync_private.h"
 #include "cam_debug_util.h"
 

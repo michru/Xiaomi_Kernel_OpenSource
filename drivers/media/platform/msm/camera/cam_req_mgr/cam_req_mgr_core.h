@@ -13,7 +13,7 @@
 #define _CAM_REQ_MGR_CORE_H_
 
 #include <linux/spinlock.h>
-#include "cam_req_mgr_interface.h"
+#include <../drivers/media/platform/msm/camera/cam_req_mgr/cam_req_mgr_interface.h>
 #include "cam_req_mgr_core_defs.h"
 #include "cam_req_mgr_timer.h"
 
