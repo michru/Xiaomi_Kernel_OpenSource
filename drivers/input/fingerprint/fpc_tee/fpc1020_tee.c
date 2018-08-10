@@ -633,7 +633,7 @@ static int fpc1020_probe(struct platform_device *pdev)
 
 	atomic_set(&fpc1020->wakeup_enabled, 1);
 
-	fpc1020->irqf = IRQF_TRIGGER_RISING | IRQF_ONESHOT | IRQF_NO_SUSPEND;
+	fpc1020->irqf = IRQF_TRIGGER_RISING | IRQF_ONESHOT | IRQF_NO_SUSPEND | IRQF_PERF_CRITICAL;
 	mutex_init(&fpc1020->lock);
 
 	wakeup_source_init(&fpc1020->ttw_wl, "fpc_ttw_wl");
